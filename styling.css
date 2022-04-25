@@ -1,0 +1,299 @@
+/* Add a black background color to the top navigation */
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 0px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.nav-bar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+
+/* Change the color of links on hover */
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Underline the active/current link */
+
+.nav-bar a.active {
+    text-decoration: underline;
+}
+
+
+/*adopt*/
+
+.adopt {
+    background-color: #AD9D9D;
+    width: 450px;
+    height: 500px;
+    margin-left: 950px;
+    margin-top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: left;
+    text-align: center;
+    color: #545353;
+}
+
+.findyourpet {
+    width: 450px;
+    margin-top: 0px;
+    height: 80px;
+    padding: 20px;
+    padding-top: 30px;
+    border: 20px;
+    background-color: #9E7878;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+
+.Gender {
+    margin: 3px;
+    margin-top: 150px;
+    border: 1px solid #000000;
+    color: #AD9D9D;
+    position: absolute;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    left: 1050px;
+    top: 290px;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.35);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-align: center;
+}
+
+.Age {
+    margin: 3px;
+    margin-top: 150px;
+    border: 1px solid #000000;
+    color: #AD9D9D;
+    position: absolute;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    left: 1050px;
+    top: 340px;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.35);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-align: center;
+}
+
+.City {
+    position: absolute;
+    padding: 5x;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    left: 1050px;
+    top: 390px;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.35);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-align: center;
+}
+
+.Monthly {
+    position: absolute;
+    padding: 5x;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    left: 1050px;
+    top: 440px;
+    text-align: left;
+    color: #000000;
+}
+
+.Submit {
+    background-color: #9E7878;
+    position: absolute;
+    padding: 0px;
+    margin: 10px;
+    width: 125px;
+    height: 40px;
+    left: 1110px;
+    top: 500px;
+    text-align: center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+
+
+
+/*aboutus*/
+
+.aboutustext{
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 800px;
+    text-align: justify;
+    margin-top: 150px;
+    float:left;
+}
+.aboutustext h2{
+    text-align: center;
+}
+.slider-holder{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: -250px;
+    overflow: hidden;
+    float: right;
+
+    
+    
+  
+}
+    
+.image-holder{
+    
+    width: 1200px;
+    background-color: red;
+    height: 400px;
+    clear:both;
+    position: relative;
+    border: 0px;
+
+    
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slider-image{
+
+    margin: 0px;
+    padding: 0px;
+    border-left: 0px;
+    position: relative;
+}
+
+#slider-image-1:target ~ .image-holder
+{
+    left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+    left: -400px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+    left: -800px;
+}
+
+.button-holder
+{
+    position: relative;
+    top: -20px;
+}
+
+.slider-change
+{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+/*contactus*/
+.contacting{
+    margin-top: 100px;
+    margin-left:250px;
+    
+}
+.contacting img{
+    padding-right: 60px;
+    margin: 0px;
+}
+
+/*Donate*/
+.helpus{
+    position: absolute;
+    background: #9E7878;
+    width: 900px;
+    height: 109px;
+    left: 550px;
+    top: 149px;
+
+    font-family: Recursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    margin-left: 80px;
+    color: #FFFFFF;
+
+}
+
+.currency{
+    
+    margin: 3px;
+    margin-top: 150px;
+    border: 1px solid #000000;
+    color: #AD9D9D;
+    position: absolute;
+    padding: 5px;
+    margin: 10px;
+    width: 400px;
+    height: 80px;
+    left: 900px;
+    top: 340px;
+    text-align: center;
+    background-color: #DFB3B3;
+    border: 1px solid #000000;
+    box-sizing:inherit;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-align: center;
+    
+}
+
+
